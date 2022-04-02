@@ -1,12 +1,12 @@
 ## Summary
 
-The SpigotPlugin project is a template for creating a new project for the Spigot server implementation for Minecraft. It can compile out of box, but will do absolutely nothing without modification.
+The PaperMCPlugin project is a template for creating a new project for the PaperMC server implementation for Minecraft. It can compile out of box, but will do absolutely nothing without modification.
 
 **Do not use the me.sgray namespace! Change to either use either an email account or domain name that YOU own.**
 
 ## Motivation
 
-There's a lot of examples of how to create a pom.xml file for Maven-enabled projects, but very few designed to give a basis for Spigot plugins. The pom.xml in this project contains the most relevant and useful properties to someone creating a new plugin, including the necessary dependency on the Spigot API.
+There's a lot of examples of how to create a pom.xml file for Maven-enabled projects, but very few designed to give a basis for PaperMC plugins. The pom.xml in this project contains the most relevant and useful properties to someone creating a new plugin, including the necessary dependency on the PaperMC API.
 
 ## Installation
 
@@ -36,7 +36,7 @@ Feel free to (and please do) clone this project and make adjustments to fit your
 ## Credits
 
 * Kudos to Oracle for the Eclipse IDE and Apache for Maven.
-* Thank you to the Bukkit and Spigot communities for providing a better Minecraft server wrapper
+* Thank you to the Bukkit and PaperMC communities for providing a better Minecraft server wrapper
 
 ## License
 
