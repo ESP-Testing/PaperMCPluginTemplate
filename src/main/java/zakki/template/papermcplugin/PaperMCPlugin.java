@@ -1,8 +1,8 @@
-package me.sgray.template.spigotplugin;
+package zakki.template.papermcplugin;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class SpigotPlugin extends JavaPlugin {
+public class PaperMCPlugin extends JavaPlugin {
     @Override
     public void onDisable() {
         // Don't log disabling, Spigot does that for you automatically!

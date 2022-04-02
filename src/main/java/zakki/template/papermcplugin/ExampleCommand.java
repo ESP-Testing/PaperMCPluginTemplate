@@ -1,13 +1,13 @@
-package me.sgray.template.spigotplugin;
+package zakki.template.papermcplugin;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
 public class ExampleCommand implements CommandExecutor {
-    SpigotPlugin plugin;
+    PaperMCPlugin plugin;
 
-    public ExampleCommand(SpigotPlugin plugin) {
+    public ExampleCommand(PaperMCPlugin plugin) {
         this.plugin = plugin;
     }
 

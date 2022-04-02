@@ -1,16 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>me.sgray.template</groupId>
-    <artifactId>SpigotPlugin</artifactId>
+    <groupId>zakki.template</groupId>
+    <artifactId>PaperMCPlugin</artifactId>
     <!-- Version is used in plugin.yml -->
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!-- Plugin Information -->
     <!-- Name, Description, and URL are used in plugin.yml -->
-    <name>SpigotPlugin</name>
-    <description>Example of a Spigot plugin using Maven</description>
-    <url>http://sgray.me/project/spigotplugin</url>
+    <name>PaperMCPlugin</name>
+    <description>Example of a PaperMC plugin using Maven</description>
 
     <licenses>
         <license>
@@ -40,30 +39,31 @@
 
     <developers>
         <developer>
-                <name>Shaila Gray</name>
-                <url>http://sgray.me</url>
+                <name>Zakki</name>
+                <url>https://github.com/Zakki0925224</url>
         </developer>
     </developers>
 
     <properties>
         <!--  Author and MainClass are used in plugin.yml -->
-        <author>SGray</author>
-        <mainClass>me.sgray.template.spigotplugin.SpigotPlugin</mainClass>
+        <author>Zakki</author>
+        <mainClass>zakki.template.papermcplugin.PaperMCPlugin</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>org.spigotmc</groupId>
-            <artifactId>spigot-api</artifactId>
-            <version>1.8-R0.1-SNAPSHOT</version>
+            <groupId>io.papermc.paper</groupId>
+            <artifactId>paper-api</artifactId>
+            <version>1.18.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
+            <id>papermc</id>
+            <url>https://papermc.io/repo/repository/maven-public/</url>
         </repository>
     </repositories>
 
@@ -92,10 +92,9 @@
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
+                <version>3.8.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <release>17</release>
                 </configuration>
             </plugin>
         </plugins>

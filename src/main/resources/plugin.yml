@@ -9,7 +9,7 @@ main: ${mainClass}
 commands:
     example:
         description: An example command
-        permission: spigotplugin.example
+        permission: papermcplugin.example
         usage: /<command>
 
 permissions: {}
